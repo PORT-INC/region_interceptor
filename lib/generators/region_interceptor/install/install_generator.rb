@@ -15,7 +15,7 @@ module RegionInterceptor
     end
 
     def create_cities
-      Open3.capture3('bundle exec rails g model city name:string prefecture:references')
+      Open3.capture3('bundle exec rails g model city name:string code:string prefecture:references')
     end
 
     def copy_csv
