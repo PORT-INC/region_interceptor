@@ -1,15 +1,13 @@
 # RegionInterceptor
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/region_interceptor`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+地域系(Region)のデータを用意してあげることで、開発の成長直・曲線の切片(Interceptor)となるgem。
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'region_interceptor'
+gem 'region_interceptor', :git => 'git@github.com:PORT-INC/region_interceptor.git'
 ```
 
 And then execute:
@@ -21,18 +19,33 @@ Or install it yourself as:
     $ gem install region_interceptor
 
 ## Usage
+下記コマンドで必要なファイルを生成する。
 
-TODO: Write usage instructions here
+    $ bundle exec rails g region_interceptor:install
+    
+生成されるファイル
+- model
+    - region.rb
+    - prefecture.rb
+    - area.rb
+    - city.rb
+    
+- migration
+    - 上記4ファイルのmigrationファイル
+    
+- seedデータ（csv）
+    - region, prefecture, area, cityそれぞれのseedデータ
+    
 
-## Development
+migrationファイルを適宜修正した後
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+    $ bundle exec rails db:migrate
+    
+して
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/region_interceptor.
+    $ bundle exec rails region_interceptor:seed
+    
+でデータがインポートされる
 
 ## License
 
