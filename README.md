@@ -1,6 +1,6 @@
 # RegionInterceptor
 
-地域系(Region)のデータを用意してあげることで、開発の成長直・曲線の切片(Interceptor)となるgem。
+地域系(Region)のデータを用意してあげることで、開発成長直・曲線の切片(Interceptor)となるgem。
 
 ## Installation
 
@@ -13,10 +13,6 @@ gem 'region_interceptor', :git => 'git@github.com:PORT-INC/region_interceptor.gi
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install region_interceptor
 
 ## Usage
 下記コマンドで必要なファイルを生成する。
