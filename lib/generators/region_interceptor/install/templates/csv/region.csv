@@ -6,5 +6,4 @@ id,code,name
 5,kansai,関西
 6,shikoku,四国
 7,chugoku,中国
-8,kyushu,九州
-9,okinawa,沖縄
+8,kyushu-okinawa,九州・沖縄
