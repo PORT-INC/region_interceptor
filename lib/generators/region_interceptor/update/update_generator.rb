@@ -8,7 +8,7 @@ module RegionInterceptor
 
     def update_csv
       %w(region prefecture area city).each do |name|
-        remove_file "csv/#{name}.csv"
+        remove_file "#{Rails.root}/db/fixtures/csv/#{name}.csv"
         copy_file "csv/#{name}.csv", "#{Rails.root}/db/fixtures/csv/#{name}.csv"
       end
     end
