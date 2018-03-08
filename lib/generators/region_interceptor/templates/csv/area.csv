@@ -12,7 +12,7 @@ id,code,name,prefecture_id
 11,other_sendai,その他宮城県（仙台エリア以外）,5
 12,akita,秋田エリア,4
 13,yamagata,山形エリア,6
-14,nara,奈良エリア,6
+14,nara,奈良エリア,29
 15,other_koriyama,その他福島県（郡山エリア以外）,7
 16,koriyama,郡山エリア,7
 17,ibaraki,茨城エリア,8
@@ -40,7 +40,7 @@ id,code,name,prefecture_id
 39,other_nigata,その他新潟県（新潟エリア以外）,17
 40,toyama,富山エリア,19
 41,other_toyama,その他富山県（富山エリア以外）,19
-42,mie,三重エリア,19
+42,mie,三重エリア,24
 43,kanazawa,金沢エリア,18
 44,other_kanazawa,その他石川県（金沢エリア以外）,18
 45,fukui,福井エリア,20

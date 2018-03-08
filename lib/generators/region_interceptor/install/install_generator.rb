@@ -4,7 +4,7 @@ require 'open3'
 module RegionInterceptor
 
   class InstallGenerator < ::Rails::Generators::Base
-    source_root File.expand_path('../templates', __FILE__)
+    source_root File.expand_path('../../templates', __FILE__)
 
     def create_regions
       Open3.capture3('bundle exec rails g model region name:string code:string')
