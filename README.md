@@ -15,6 +15,7 @@ And then execute:
     $ bundle
 
 ## Usage
+### seed投入時
 下記コマンドで必要なファイルを生成する。
 
     $ bundle exec rails g region_interceptor:install
@@ -43,6 +44,14 @@ migrationファイルを適宜修正した後
     
 でデータがインポートされる
 
+### データ更新時
+下記コマンドで必要なファイルの更新。
+
+    $ bundle exec rails g region_interceptor:update
+    
+後に下記コマンドデータの更新。
+    
+    $ bundle exec rails region_interceptor:update
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
