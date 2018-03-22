@@ -3,11 +3,13 @@ require 'rails'
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 namespace :region_interceptor do
+  desc '地域・都道府県・エリア・市区町村を作成する'
   task seed: :environment do
     seed_models = %w(region prefecture area city)
     import_csv(seed_models)
   end
 
+  desc '地域・都道府県・エリア・市区町村を更新する'
   task update: :environment do
     seed_models = %w(region prefecture area city)
     import_csv(seed_models, type: :update)
