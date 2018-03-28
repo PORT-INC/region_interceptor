@@ -18,8 +18,8 @@ id,code,name,prefecture_id
 17,ibaraki,茨城エリア,8
 18,utsunomiya,宇都宮エリア,9
 19,other_utsunomiya,その他栃木県（宇都宮エリア以外）,9
-20,other_takasaki,その他群馬県（高崎エリア以外）,10
-21,takasaki,高崎エリア,10
+20,takasaki,高崎エリア,10
+21,other_takasaki,その他群馬県（高崎エリア以外）,10
 22,saitama,さいたまエリア,11
 23,other_saitama,その他埼玉県（さいたまエリア以外）,11
 24,chiba,千葉エリア,14
