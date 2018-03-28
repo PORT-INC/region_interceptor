@@ -30,7 +30,7 @@ Module.new do
           unless object.update(attributes)
             duplication = model.classify.constantize.where(attributes)
             duplication.each_with_index do |dup, index|
-              dup.assign_attributes(name: "#{attributes['name']}_#{index}", code: "#{attributes['code']_index}")
+              dup.assign_attributes(name: "#{attributes['name']}_#{index}", code: "#{attributes['code']}_#{index}")
               dup.save
             end
             object.update(attributes)
