@@ -25,7 +25,16 @@ Module.new do
           attributes = data.to_hash
           next unless attributes['name']
           object = model.classify.constantize.find_or_initialize_by(id: attributes.delete('id'))
-          object.update attributes
+
+          # 失敗したら重複を見つけて、別の値に上書きしてからまたupdate
+          unless object.update(attributes)
+            duplication = model.classify.constantize.where(attributes)
+            duplication.each_with_index do |dup, index|
+              dup.assign_attributes(name: "#{attributes['name']}_#{index}", code: "#{attributes['code']_index}")
+              dup.save
+            end
+            object.update(attributes)
+          end
         end
       end
     end
