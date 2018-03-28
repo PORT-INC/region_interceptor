@@ -65,7 +65,7 @@ id,code,name,prefecture_id
 64,other_hokkaido,その他北海道（札幌エリア以外）,30
 65,tottori,鳥取エリア,38
 66,shimane,島根エリア,37
-67,miyazaki,宮崎エリア,37
+67,miyazaki,宮崎エリア,45
 68,okayama,岡山エリア,35
 69,other_okayama,その他岡山県（岡山エリア以外）,35
 70,hiroshima,広島エリア,36
