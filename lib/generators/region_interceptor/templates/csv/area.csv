@@ -13,8 +13,8 @@ id,code,name,prefecture_id
 12,akita,秋田エリア,4
 13,yamagata,山形エリア,6
 14,nara,奈良エリア,29
-15,other_koriyama,その他福島県（郡山エリア以外）,7
-16,koriyama,郡山エリア,7
+15,koriyama,郡山エリア,7
+16,other_koriyama,その他福島県（郡山エリア以外）,7
 17,ibaraki,茨城エリア,8
 18,utsunomiya,宇都宮エリア,9
 19,other_utsunomiya,その他栃木県（宇都宮エリア以外）,9
