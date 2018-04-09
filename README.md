@@ -2,6 +2,9 @@
 
 地域系(Region)のデータを用意してあげることで、開発成長直・曲線の切片(Interceptor)となるgem。
 
+取得元はこのサイト
+http://jusyo.jp/csv/document.html
+
 ## Installation
 
 Add this line to your application's Gemfile:
