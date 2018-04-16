@@ -337,7 +337,7 @@ id,name,code,area_id
 336,最上郡鮭川村,sakegawa,13
 337,最上郡戸沢村,tozawa,13
 338,東置賜郡高畠町,takahata,13
-339,東置賜郡川西町,kawanishicho,14
+339,東置賜郡川西町,kawanishicho,13
 340,西置賜郡小国町,ogunicho,13
 341,西置賜郡白鷹町,shirataka,13
 342,西置賜郡飯豊町,iide,13
@@ -1236,7 +1236,7 @@ id,name,code,area_id
 1235,有田郡広川町,hirogawacho,63
 1236,有田郡有田川町,aridagawa,63
 1237,日高郡美浜町,mihama,63
-1238,日高郡日高町,hidakachoo,64
+1238,日高郡日高町,hidakachoo,63
 1239,日高郡由良町,yura,63
 1240,日高郡印南町,inami,63
 1241,日高郡みなべ町,minabe,63
@@ -1266,7 +1266,7 @@ id,name,code,area_id
 1265,西伯郡南部町,nanbu,65
 1266,西伯郡伯耆町,hoki,65
 1267,日野郡日南町,nichinancho,65
-1268,日野郡日野町,hino,55
+1268,日野郡日野町,hino,65
 1269,日野郡江府町,kofu,65
 1270,松江市,matsue,66
 1271,浜田市,hamada,66
@@ -1279,7 +1279,7 @@ id,name,code,area_id
 1278,仁多郡奥出雲町,okuizumo,66
 1279,飯石郡飯南町,iinan,66
 1280,邑智郡川本町,kawamoto,66
-1281,邑智郡美郷町,misatochooo,67
+1281,邑智郡美郷町,misatochooo,66
 1282,邑智郡邑南町,onan,66
 1283,鹿足郡津和野町,tsuwano,66
 1284,鹿足郡吉賀町,yoshika,66
@@ -1561,7 +1561,7 @@ id,name,code,area_id
 1560,阿蘇市,aso,85
 1561,天草市,amakusa,85
 1562,合志市,koshi,85
-1563,下益城郡美里町,misato_cho,23
+1563,下益城郡美里町,misato_cho,85
 1564,玉名郡玉東町,gyokuto,85
 1565,玉名郡南関町,nankan,85
 1566,玉名郡長洲町,nagasu,85
