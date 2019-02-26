@@ -1,4 +1,5 @@
 # RegionInterceptor
+https://docs.google.com/spreadsheets/d/1pnxhA2wykksEkUstqr5Kb5sTuOD2zNYWIX83H0dVusg/edit?usp=drive_web&ouid=107943964376668319182
 
 地域系(Region)のデータを用意してあげることで、開発成長直・曲線の切片(Interceptor)となるgem。
 
